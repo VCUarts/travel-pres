@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>VCUarts - Presentation</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -28,6 +28,96 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
+
+<!-- styles to be imported when I move this to teh version at VCU -->
+<style>
+.reveal ul.images-inline{
+	list-style: none;
+	margin-left: 0;
+}
+
+.images-inline li{
+	float: left;
+	margin-right: 20px;
+	width: 200px;
+	text-align: center;
+}
+
+.images-inline li:last-child{
+	margin-right: 0;
+}
+
+.reveal img.no-border{
+	border: none;
+	/*border: 4px solid #eeeeee;*/
+	box-shadow: none;
+	background: transparent;
+}
+
+/*.image-inline li small{
+	display: block;
+}*/
+
+span.big-callout{
+	color: #ee3041;
+	font-size: 2em;
+}
+
+span.inline-callout{
+	color: #00ABC4;
+}
+
+
+.reveal .vcuarts .vcu{
+	text-transform: uppercase;
+}
+
+.reveal .vcuarts .arts{
+	text-transform: lowercase;
+}
+
+.reveal .lowercase{
+	text-transform: lowercase;
+}
+
+
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p {
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, 1.0);
+}
+
+.reveal h1.no-text, .reveal h2.no-text, .reveal h3.no-text, .reveal h4.no-text, .reveal h5.no-text, .reveal h6.no-text, .reveal p.no-text {
+	text-shadow: none;
+}
+
+.images-inline .name{
+	margin-bottom: 1em;
+}
+
+.reveal {
+	font-family: 'Conv_Archer-Medium-Pro';
+}
+
+
+@font-face {
+	font-family: 'Conv_Archer-Medium-Pro';
+	src: url('assets/fonts/Archer-Medium-Pro.eot');
+	src: local('☺'), url('assets/fonts/Archer-Medium-Pro.woff') format('woff'), url('assets/fonts/Archer-Medium-Pro.ttf') format('truetype'), url('assets/fonts/Archer-Medium-Pro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+</style>
+
+
+
+
+
+
+
 	</head>
 
 	<body>
@@ -36,28 +126,1541 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+
+				
+<!--
+------------------------------ 
+INTRODUCTION 
+------------------------------
+-->
+
+
+				<section data-background="assets/images/afo/afo.jpg">
+					<section>
+						<h3 style="color:#febe10">Hello, we're</h3>
+						<h1>Virginia Commonwealth University <br/>School of the Arts.</h1>
+					</section>
+
+					<section>
+						<img class='no-border' src="assets/images/vcuarts-logo.png"/>
+						<h3 class="fragment no-text-shadow" >Nice to meet you.</h3>
+					</section>
+
+					<section 
+						data-background="assets/images/rva-night-skyline.jpg"
+						data-background-transition="fade">
+						
+						<h2>Located in Richmond, Virginia</h2>
+					</section>
+
+					<!-- style="background: rgba(0,0,0,0.2)" -->
+					<section 
+						data-background="assets/images/qatar2.jpg"
+						data-background-transition="fade">
+						<h2>Sister campus in Doha, Qatar</h2>
+					</section>
+
+					<section 
+						data-background="assets/images/vcuarts-sticker-rome.jpg"
+						data-background-transition="fade">
+						
+						<h2>Connections all over the world</h2>
+					</section>
+				</section>
+
+
+
+
+<!--
+------------------------------ 
+International Students
+------------------------------
+-->
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
+					<section>
+						<img class="no-border" src="assets/images/graphics/our-student-come-from.png"/>
+					</section>
+
+					<section>
+						<h2>Why?</h2>
+					</section>
+				</section>
+
+
+
+<!--
+------------------------------ 
+Rankings
+------------------------------
+-->
+				<section>
+					<section>
+						<h2><span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> is the <span class="big-callout">#1</span> ranked public art and design program in the country.</h2>
+						<p>So says <em>US News &amp; World Report</em> (since 2003)</p>
+					</section>
+
+					<section>
+						<h2>(Show all our top rankings)</h2>
+
+						<p class="fragment">Sculpture #1</p>
+						<p class="fragment">Painting + Printmaking #5</p>
+						<p class="fragment">GDES #1</p>
+
+
+					</section>
+
+					<section>
+						<h2>But our ranking is just part of the story.</h2>
+					</section>
+				</section>
+
+<!--
+------------------------------ 
+Value
+------------------------------
+-->
+
+				<section>
+					<h2><span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> is an amazing VALUE.</h2>
+					<p>And our relatively low tuition is just part of that equation.</p>
+				</section>
+
+
+<!--
+------------------------------ 
+Richmond
+------------------------------
+-->
+
+				<section>
+					<section data-background="assets/images/richmond/rva-night.jpg">
+						<h2>Richmond is an incredible city with a low cost-of-living.</h2>
+					</section>
+
+					<section>
+						<p>It is...</p>
+					</section>
+					<section data-background="assets/images/fall.jpg">
+						<h2>Beautiful.</h2>
+					</section>
+
+					<section data-background="assets/images/pollak-roof.jpg">
+						<h2>Inspiring.</h2>
+					</section>
+					
+					<section data-background="assets/images/vmfa_exterior.jpg">
+						<h2>Art-centric.</h2>
+					</section>
+					
+					<section data-background="assets/images/historic.jpg">
+						<h2>Historic.</h2>
+					</section>
+
+					<section data-background="assets/images/carytown-vintage.jpg">
+						<h2>Always something cool to do and see.</h2>
+					</section>
+				</section>
+
+
+
+<!--
+------------------------------ 
+Add it up!
+------------------------------
+-->
+			<section>
+				<section>
+					<p>Our relatively <span class="inline-callout">low tuition</span></p>
+					<p class="fragment">and <span class="inline-callout">financial aid assistance</span></p>
+					<p class="fragment">and the <span class="inline-callout">quality</span> of a <span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> education</p>
+					<p class="fragment">and the <span class="inline-callout">reputation</span> and <span class="inline-callout">ranking</span> of <span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> </p>
+					<p class="fragment">and the fact that >50% of freshman arts applicants receive <span class="inline-callout">scholarships</span></p>
+					<h2 class="fragment">=</h2>
+				</section>
+
+				<section data-background="assets/images/richmond/dunk.jpg">	
+					<h2>awesome.</h2>
+					<small class="fragment"><span class="inline-callout">(value)</span></small>
+				</section>
+			</section>
+
+
+<!--
+------------------------------ 
+Did You Know?
+------------------------------
+-->
+
+				<section>
+					<section>
+						<h2>Did you know?</h2>
+					</section>
+
+					<section data-background="assets/images/richmond/rivercityraft.com/rapids.jpg">
+						<h2>Richmond is Outdoor Magazine's #1 River City</h2>
+					</section>
+
+					<section data-background="assets/images/richmond/rva-tattoo.jpg">
+						<h2>Third most tattooed city in the U.S.</h2>
+					</section>
+
+					<section data-background="assets/images/richmond/john-hall-moser/folkfest1.jpg">
+						<h2>Countless annual festivals</h2>
+						<small>(show Folk Festival, Carytown Watermelon Festival, Greek Festival...)</small>
+					</section>
+
+					<section data-background="assets/images/richmond/apples2.jpg">
+						<h2>A Top 10 Vegan-Friendly City</h2>
+						<small>(according to PETA)</small>
+					</section>
+
+					<section>
+						<h2>Close to everything you'd want</h2>
+						<small>(Create a graphic that shows proximity to DC, mountains, beach, and 1 hour plane ride to NYC)</small>
+					</section>
+
+					<section>
+						<h2>Map showing VCU in Richmond</h2>
+					</section>
+
+					<section>
+						<h2>Map showing <span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> at VCU (arts buildings. Maybe show dorms???)</h2>
+					</section>
+
+
+<!-- MAYBE THIS SHOULD GO AT THE END. NEED TO GET TO MEAT SOONER? POTATOES LATER? -->
+				</section>
+
+
+
+<!--
+------------------------------ 
+Back to VCU
+------------------------------
+-->
+
+				<section>
+					<!-- <section data-background="assets/images/glassworking_1.jpg"> -->
+					<section data-background="assets/images/richmond/engbldg.jpg">
+						<h2>VCU is a major public research institution</h2>
+					</section>
+
+					<section data-background="assets/images/richmond/vcu-rams-crowd.jpg">
+						<img class="no-border" src="assets/images/graphics/vcu32000.png" />
+					</section>
+					
+					<section data-background="assets/images/richmond/vcu-rams-small-crowd.jpg">
+						<img class="no-border" src="assets/images/graphics/vcuarts3200.png" />
+					</section>
+					
+					<section data-background="assets/images/richmond/gdes-dept.jpg">
+						<img class="no-border" src="assets/images/graphics/vcuarts200.png" />
+					</section>
+					
+					<section data-background="assets/images/richmond/vcuarts-class-2.jpg">
+						<img class="no-border" src="assets/images/graphics/vcuarts14-3.png" />
+					</section>
+					
+					<section data-background="assets/images/richmond/splash1.jpg">
+						<img class="no-border" src="assets/images/graphics/big-small.png" />
+					</section>
+
+
+					<section>
+						<h1><span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> is FULLY accredited.</h1>
+						<small>(Not all art schools are)</small>
+						<p>This means we've passed rigorous evaluation criteria</p>
+
+					</section>
+				</section>
+
+
+
+<!--
+------------------------------ 
+Majors
+------------------------------
+-->
+				<section>
+					<section>
+						<h2>Now let's talk about our majors</h2>
+					</section>
+
+					<section>
+						<h2>What is AFO?</h2>
+					</section>
+
+					<section data-background="assets/images/afo.jpg">
+						<p>Art Foundation is the first-year program for students who wish to enter: </p>
+						<p class="fragment">Art Education</p>
+						<p class="fragment">Communication Arts</p>
+						<p class="fragment">Craft/Material Studies</p>
+						<p class="fragment">Fashion Design</p>
+						<p class="fragment">Graphic Design</p>
+						<p class="fragment">Interior Design</p>
+						<p class="fragment">Kinetic Imaging</p>
+						<p class="fragment">Painting and Printmaking</p>
+						<p class="fragment">Photography and Film</p>
+						<p class="fragment">Sculpture + Extended Media.</p>
+					</section>
+
+					<section>
+						<p>A studio-based experience in the fundamental issues of art and design. 
+It exposes students to a vast forum of ideas & concepts preparing them for a wide range of disciplines.
+When in AFO, students apply to their departments of choice.</p>
+					</section>
+
+					<section>
+						<p>The large majority are accepted into their first choice.</p>
+						<small>(whew!)</small>
+					</section>
+
+					<section>
+						<p>Clip of video about AFO. Photos of AFO.</p>
+					</section>
+				</section>
+
+
+
+
+<!--
+------------------------------ 
+BFA vs BA
+------------------------------
+-->
+			<section>
+				<section>
+					<h2>BFA <span class="lowercase">vs</span> BA</h2>
+					<p>What's the difference between a Bachelor of Fine Arts (BFA) degree and and Bachelor of Arts (BA) Degree?</p>
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+					<h2>BFA</h2>
+					<p>A professional studio-based degree</p>
+					<p>2/3 focus on major</p>
+					<p>1/3 focus on liberal arts and sciences</p>
 				</section>
+
+				<section>
+					<h2>BA</h2>
+					<p>A liberal-arts based, general arts degree</p>
+					<p>1/3 focus on major</p>
+					<p>2/3 focus on liberal arts and sciences</p>
+				</section>
+			</section>
+
+
+
+
+
+
+
+
+
+
+<!--
+-----------------------
+Art Education
+
+http://esterknows.com/art-education 
+-----------------------
+-->
+<section data-background="assets/images/arted/arted.jpg">
+	<section>
+		<h2>Art Education</h2>
+			<p>Bachelor of Fine Arts (BFA)</p>
+	</section>
+	<section>
+		<h2>Apply to Art Foundation?</h2> 
+		<p>Yes.</p>
+	</section>
+	<section>
+		<p>Art Ed combines art and teaching.</p>
+	</section>
+	<section>
+		<p>Train to be an idea-based artist and learn to design instructional strategies.
+Spend time student-teaching in local schools.</p>
+	</section>
+
+	<section data-background="assets/images/default-bg.png">
+		<p>Art Education grads become teachers, school administrators, artists…</p>
+
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com">
+						<img src="assets/images/arted/profile.jpg" alt="arted">
+					</a>
+					<small>Gaby Montejo</small>
+					<small><em>Manager wood/metal workshop and foundry at the University of Canterbury’s School of Fine Arts</em></small>
+				</li>
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/arted/regional-winner.jpg" alt="">
+					</a>
+					<small>Tori Kesling</small>
+					<small><em>Theatre Director</em></small>
+				</li>
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/arted/P.-Muzi-Branch-2.jpg" alt="">
+					</a>
+					<small>Phillip W. Branch</small>
+					<small><em>Director of Cultural Programs for the VCU Health System</em></small>
+				</li>
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/arted/sisters-and-fun-09-028.jpg" alt="">
+					</a>
+					<small>Ginger Pennington</small>
+					<small><em>Artist</em></small>
+				</li>
+				
+			</ul>
+	</section>
+
+</section>
+
+
+
+<!--
+-----------------------
+Art History
+-----------------------
+-->
+
+<section data-background="assets/images/arthistory/camel.jpg">
+	<section>
+		<h2>Art History</h2>
+			<p>Bachelor of Arts (BA)</p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>No.</p>
+	</section>
+	<section>
+		<p>Art History and Architectural History concentrations are offered. </p>
+	</section>
+	<section>
+		<p>Students study two- and three-dimensional works of art in a variety of media, including painting, photography, sculpture, architecture, film and performance art.</p>
+	</section>
+	<section>
+		<p>Art historians examine the creation and meaning works of art as well as their social, political, and historical contexts.</p>
+	</section>
+	<section>
+		<p>Internships at major museums, galleries, historic buildings and archeological sites.
+Students have traveled to Peru, Scotland, Tibet, Ecuador, and Spain.</p>
+	</section>
+
+	<section data-background="assets/images/default-bg.png">
+		<p>Art History grads become museum curators, conservationists, researchers, gallery administrators, restoration specialists, appraisers, art consultants…</p>
+
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/arthistory/jenny-ramirez.jpg" alt="">
+					</a>
+					<small class="name">Jenny Ramirez</small>
+					<small><em>Art History Teacher, Virginia Military Institute</em></small>
+
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/arthistory/emmanuelle-delmas-glass.jpg" alt="">
+					</a>
+					<small class="name">Emmanuelle Delmas-Glass</small>
+					<small><em>Collections Information Specialist, Yale Center for British Art</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/arthistory/elizabeth-holcombe-fedorko.jpg" alt="">
+					</a>
+					<small class="name">Elizabeth Holcombe Fedorko</small>
+					<small><em>Author &amp; business owner</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/arthistory/annapurna-kumar.jpg" alt="">
+					</a>
+					<small class="name">Annapurna Kumar</small>
+					<small><em>Visual Performer</em></small>
+				</li>
+
+			</ul>
+	</section>
+</section>
+
+
+<!--
+-----------------------
+Cinema
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/cinema/cinema.jpg">
+		<h2>Cinema</h2>
+			<p>Bachelor of Arts (BA)</p>
+	</section>
+
+	<section data-background="assets/images/cinema/cinema2.jpg">
+		<h2>Apply to Art Foundation?</h2>
+		<p>No.</p>
+	</section>
+
+	<section>
+		<p>What’s the difference between a BA in Cinema and a BFA in Photography and Film?</p>
+		<p class="fragment">Cinema offers a BA degree. Students learn to create narrative films and work in teams. Emphasis on writing, casting, directing, camera work and editing in the collaborative, industry model of production.</p>
+		<p class="fragment">Photography and Film offers a BFA degree. Students work individually and in small groups to create artisanal narrative shorts, documentaries and single-channel experimental films and videos.</p>
+	</section>
+	<section>
+		<p>Focus on narrative film and combine the use of new digital technologies</p>
+	</section>
+
+	<section>
+		<p>Cinema grads become film makers, directors, editors, producers, critics, sound designers, directors of photography, production designers…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/cinema/christine-stoddard.jpg" alt="">
+					</a>
+					<small class="name">Christine Stoddard</small>
+					<small><em>Author &amp; Documentarian</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="assets/images/cinema/yossera.jpg" alt="">
+					</a>
+					<small class="name">Yossera Bouchtia</small>
+					<small><em>Videographer, Editor, Associate Producer</em></small>
+				</li>
+
+			</ul>
+	</section>
+</section>
+
+
+
+
+
+
+<!--
+-----------------------
+CommArts
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/commarts/bunnies.jpg">
+		<h2>Communication Arts</h2>
+			<p>Bachelor of Fine Arts (BFA)</p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+	<section>
+		<p>Illustration.</p>
+	</section>
+	<section>
+		<p>Medical Illustration.</p>
+	</section>
+	<section>
+		<p>Electronic imaging for print, television, film and web.</p>
+	</section>
+	<section>
+		<p>The study and exploration of the qualities, disciplines and technologies that enable us to create and communicate with insight, vision and voice.</p>
+	</section>
+
+	<section>
+		<p>Communication Arts grads become art directors, illustrators, animators, 3-D modelers, graphic novelists…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+<!--
+-----------------------
+CRaft
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/craft/wood.jpg">
+		<h2>Craft/Material Studies</h2>
+			<p>Bachelor of Fine Arts (BFA)</p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+
+	<section>
+		<p>Metal – make objects and jewelry with soldering, stone setting, hollow forming, and enameling techniques</p>
+	</section>
+	<section>
+		<p>Fiber – learn to weave, embroider, and knit, and silkscreen on cloth</p>
+	</section>
+	<section>
+		<p>Wood – study carving, joinery and lathe work to make sculpture and furniture</p>
+	</section>
+	<section>
+		<p>Glass – explore glassblowing, slumping, lampworking, and casting</p>
+	</section>
+	<section>
+		<p>Clay – learn hand building or wheel throwing pottery techniques</p>
+	</section>
+	<section>
+		<p>Within these areas, students develop concepts and personal direction with an emphasis on using materials wisely and skillfully to express ideas through objects and images.</p>
+	</section>
+
+	<section>
+		<p>Fiber is ranked #1<br/> among all public <br/>U.S. art &amp; design programs. <br/><small>US News & World Report</small></p>
+		<p>Glass is ranked #1</p>
+		<p>Metal is ranked #5 </p>
+		<p>Clay (ceramics) is ranked #6</p>
+	</section>
+
+
+	<section>
+		<p>Craft grads become textile, furniture and jewelry designers, studio artists, craftspersons…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+
+
+
+<!--
+-----------------------
+DANCE
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/dance/dance.jpg">
+		<h2>Dance & Choreography</h2>
+			<p>Bachelor of Fine Arts (BFA)</p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>No.</p>
+	</section>
+
+	<section>
+		<p>Equal focus on performance and choreography.</p>
+	</section>
+	<section>
+		<p>Students train in modern dance and ballet techniques as well as in creative-track courses.</p>
+	</section>
+	<section>
+		<p>VCU Dance is represented annually at major dance competitions.</p>
+	</section>
+	<section>
+		<p>Dance grads become choreographers, performers, dance teachers, artistic directors, dance therapists…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+<!--
+-----------------------
+Fashion
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/fashion/fashion.jpg">
+		<h2>Fashion Design</h2>
+			<p>Bachelor of Fine Arts (BFA)</p>
+	</section>
+
+	<section data-background="assets/images/fashion/fashion-sewing.jpg">
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+
+	<section>
+		<p>Learn both the creative and professional processes for concept development, fashion illustration, patternmaking, draping and garment construction.</p>
+	</section>
+
+	<section>
+		<p>Fashion Design grads become fashion designers, product developers, fashion historians, associate designers…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+
+
+<!--
+-----------------------
+GDES
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/gdes/gdes2.jpg">
+		<h2>Graphic Design</h2>
+			<p>Bachelor of Fine Arts (BFA)</p>
+	</section>
+
+	<section data-background="assets/images/gdes/gdes.jpg">
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+
+	<section>
+		<p><span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> Graphic Design is ranked #1 
+			<br/>among all public U.S. art & design programs. 
+			<br/>
+			<small>US News & World Report</small>
+		</p>
+	</section>
+	<section>
+		<p>Graphic designers integrate form and information for the purpose of effective visual communication. Print. Web. Anyplace else where ideas are communicated.</p>
+	</section>
+	<section>
+		<p>Graphic Design grads become creative directors, art directors, graphic designers, web designers…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+
+<!--
+-----------------------
+Interior Design
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/ides/ides2.jpg">
+		<h2>Interior Design</h2>
+			<p>Bachelor of Fine Arts (BFA)</p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+
+	<section>
+		<p>Problem solving for the near built environment. It’s not about merely making a room look good.</p>
+	</section>
+	<section>
+		<p>{VIDEO OF JENNIFER FARRIS (ALUM) EXPLAINING WHAT INTERIOR DESIGN IS.}</p>
+	</section>
+	
+<!-- http://esterknows.com/interior-design -->
+
+	<section>
+		<p>Interior Design grads become contract designers, hospitality designers, retail designers, residential designers, space planners…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+<!--
+-----------------------
+KI
+-----------------------
+-->
+
+<section data-background="assets/images/ki/ki.jpg">
+	<section>
+		<h2>Kinetic Imaging</h2>
+			<p>Bachelor of Fine Arts (BFA) </p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+
+	<section>
+		<p>For students with vivid imaginations and inexhaustible curiosity, attracted to video, sound or animation art.</p>
+	</section>
+
+<!-- http://esterknows.com/kinetic-imaging -->
+
+	<section>
+		<p>Kinetic Imaging grads become media artists, producers, motion graphic artists, animators, video editors, web designers, game artist, film makers, sound technicians…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+<!--
+-----------------------
+MUSIC
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/music/music.jpg">		<h2>Music</h2>
+			<p>Bachelor of Arts (BA) and Bachelor of Music (BM)</p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>No.</p>
+	</section>
+
+	<section>
+		<p>Students study in one of these areas:</p>
+	</section>
+	<section>
+		<p>Performance</p>
+		<p>Guitar, Percussion, Piano, Strings, Vocal, Woodwind, or Brass emphasis, Jazz Studies</p>
+		<p>Students have the chance to perform and study with musicians around the world</p>
+	</section>
+	<section>
+		<p>Music Education</p>
+		<p>Teachers perform regularly and are leaders in the fields of music performance and music education.</p>
+	</section>
+
+<!-- http://esterknows.com/music -->
+
+	<section>
+		<p>Music grads become solo and orchestral performers, music educators, opera singers, music managers, band directors, conductors, professors…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+<!--
+-----------------------
+Painting + Printmaking
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/painting/painting.jpg">
+		<h2>Painting + Printmaking</h2>
+			<p>Bachelor of Fine Arts (BFA) </p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+
+<section>
+	<p><span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> Painting is ranked #2 among all public U.S. art programs. Printmaking is ranked #9. US News & World Report</p>
+</section>
+<section>
+	<p>Practice and theory as a foundation for independent exploration and artistic development.</p>
+</section>
+<section>
+	<p>Exceptional, sun-filled facilities and enhanced computer lab</p>
+</section>
+<!-- http://esterknows.com/painting-printmaking -->
+	<section>
+		<p>Painting and Printmaking grads become artists, printmakers, painters, museum administrators, art critics…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+
+<!--
+-----------------------
+Photography + Film
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/photofilm/photofilm2.jpg">
+		<h2>Photography + Film</h2>
+			<p>Bachelor of Fine Arts (BFA)</p>
+	</section>
+
+	<section data-background="assets/images/photofilm/photofilm3.jpg">
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+
+	<section>
+		<p><span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> Photography is ranked #4 among all public U.S. art & design programs. US News & World Report</p>
+	</section>
+	<section>
+		<p>Students may focus on still photography, filmmaking, or both. </p>
+	</section>
+	<section>
+		<p>Study traditional and contemporary photographic and film media.</p>
+	</section>
+
+<!-- http://esterknows.com/photography-film -->
+
+	<section>
+		<p>Photography + Film grads become photographers, film editors, filmmakers…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+
+<!--
+-----------------------
+Sculpture + Extended Media
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/sculpture/sculpture.jpg">
+		<h2>Sculpture + Extended Media</h2>
+			<p>Bachelor of Fine Arts (BFA) </p>
+	</section>
+
+	<section>
+		<h2>Apply to Art Foundation?</h2>
+		<p>Yes.</p>
+	</section>
+
+	<section>
+		<p><span class="vcuarts"><span class="vcu">VCU</span><span class="arts">arts</span></span> Sculpture is ranked #1 among all public and U.S. art & design programs. US News & World Report</p>
+	</section>
+	<section>
+		<p>One of the largest and most widely recognized programs in the country.</p>
+	</section>
+	<section>
+		<p>Learn construction methods and techniques and how to communicate ideas through artworks.</p>
+	</section>
+	<section>
+		<p>"Extended Media" includes video, performance, robotic, sound, and more.</p>
+	</section>
+
+<!-- http://esterknows.com/sculpture-extended-media -->
+	<section>
+		<p>Sculpture grads become art educators, sculptors, museum and gallery owners, designers…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+<!--
+-----------------------
+Theatre
+-----------------------
+-->
+
+
+<section>
+	<section data-background="assets/images/theatre/theatre.jpg">
+		<h2>Theatre</h2>
+			<p>Bachelor of Fine Arts (BFA) and Bachelor of Arts (BA)</p>
+	</section>
+
+	<section data-background="assets/images/theatre/theatre2.jpg">
+		<h2>Apply to Art Foundation?</h2>
+		<p>No.</p>
+	</section>
+
+<section data-background="assets/images/theatre/theatre3.jpg">
+	<p>BA: Theatre design</p>
+</section>
+<section>
+	<p>BFA: Performance; lighting design; stage management</p>
+</section>
+<section>
+	<p>The performer works with voice, body & imagination. </p>
+</section>
+<section>
+	<p>The designer/technician is involved in studio classes and practical application.</p>
+</section>
+
+<!-- http://esterknows.com/theatre --> 
+	<section>
+		<p>Theatre grads become actors, set designers, costume designers, light designers, producers, stage managers…</p>
+			<ul class="images-inline">
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+
+				<li>
+					<a href="http://esterknows.com/">
+						<img src="http://placedog.com/200/267" alt="">
+					</a>
+					<small class="name">Arnold P. Dog</small>
+					<small><em>Professional</em></small>
+				</li>
+			</ul>
+	</section>
+</section>
+
+
+
+
+
+
+
+
+
+<!--
+-----------------------
+Back to other stuff again
+-----------------------
+-->
+
+<section>
+	<h2>But your major is just part of your education.</h2>
+</section>
+
+
+<!--
+-----------------------
+Internships
+-----------------------
+-->
+
+<section>
+	<h2>Internships</h2>
+	<p>Local, regional &amp; national organizations tap our talent</p>
+	<a href="http://arts.vcu.edu/internships">arts.vcu.edu/internships</a>
+</section>
+
+
+<!--
+-----------------------
+Research Grants
+-----------------------
+-->
+<section>
+	<h2>Research grants</h2>
+	<p>http://arts.vcu.edu/opportunities/research/undergraduate/undergraduate-research-grant/
+Get some good looking stuff from here. (similar to alumni section)</p>
+</section>
+
+
+<!--
+-----------------------
+Honors
+-----------------------
+-->
+<section>
+	<h2>Honors - Thy Perks</h2>	
+</section>
+
+
+<!--
+-----------------------
+Student Organizations
+-----------------------
+-->
+<section>
+	<h2>Student organizations</h2>
+	<p>There are thousands! And you can start your own.</p>
+</section>
+
+
+
+<!--
+-----------------------
+Sports
+-----------------------
+-->
+<section>
+	<section>
+		<h2>Sports</h2>
+		<p>Every sport you can think of and our football team remains undefeated!</p>
+		<small class="fragment">(We have no football team.)</small>
+	</section>
+
+	<section>
+		<h2>Basketball is the new football!</h2>
+		<h1 class="fragment">VCU Rams Basketball!</h1>
+	</section>	
+</section>
+
+
+
+
+
+<!--
+-----------------------
+MISC
+-----------------------
+-->
+<section>
+	<h2>Award winning dining hall</h2>
+</section>
+
+
+<section>
+	<h2>Amazing gym</h2>
+</section>
+
+
+
+
+
+<!--
+-----------------------
+JOBS
+-----------------------
+-->
+
+<section>
+	<h2>That’s VCUarts. What about JOBS?</h2>
+</section>
+<section>
+	<h2>In 12 months, 80% of VCUarts alumni are employed in their first job.</h2>
+</section>
+<section>
+	<h2>34% of VCUarts students have their first jobs BEFORE leaving school.</h2>
+</section>
+<section>
+	<h2>80% of VCUarts alumni are satisfied in their careers.</h2>
+</section>
+<section>
+	<h2>Career counselor and helpful blog</h2>
+</section>
+<section>
+	<h2>Show Angie Bacskocky video</h2>
+</section>
+<section>
+	<h2>Show infographics that Teresa made (is making) of double majors and minors</h2>
+</section>
+<section>
+	<h2>(At end. How to apply. The procedures!)</h2>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 				<!-- Example of nested vertical slides -->
-				<section>
+				<section data-background="assets/images/ryansmithdance.jpg">
 					<section>
 						<h2>Vertical Slides</h2>
 						<p>
@@ -68,7 +1671,7 @@
 							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
 						</a>
 					</section>
-					<section>
+					<section data-background="assets/images/glassworking_1.jpg" >
 						<h2>Basement Level 1</h2>
 						<p>Press down or up to navigate.</p>
 					</section>
@@ -361,7 +1964,7 @@ function linkify( selector ) {
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
