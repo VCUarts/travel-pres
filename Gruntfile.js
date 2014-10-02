@@ -38,6 +38,17 @@ module.exports = function(grunt) {
 			}
 		},
 
+		imagemin: {
+      dynamic: {
+        files: [{
+          expand: true,
+          cwd: 'assets/images/',
+          src: ['**/*.{png,jpg,gif,svg,ico}'],
+          dest: 'assets/images/'
+        }]
+      }
+    },
+
 		sass: {
 			main: {
 				files: {
@@ -117,6 +128,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-contrib-sass' );
 	grunt.loadNpmTasks( 'grunt-contrib-connect' );
 	grunt.loadNpmTasks( 'grunt-zip' );
+	grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 	// Default task
 	grunt.registerTask( 'default', [ 'jshint', 'cssmin', 'uglify' ] );

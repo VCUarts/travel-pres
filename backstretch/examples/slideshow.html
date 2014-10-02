@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style>
+	    body { font-family: Helvetica, Arial, sans-serif; line-height: 1.3em; -webkit-font-smoothing: antialiased; }
+	    .container {
+	        width: 90%;
+	        margin: 20px auto;
+	        background-color: #FFF;
+	        padding: 20px;
+	    }
+	    pre, code {
+        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+        font-size: 12px;
+        color: #333;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+      }
+      pre { border: 1px solid #CCC; background-color: #EEE; color: #333; padding: 10px; overflow: scroll; }
+      code { padding: 2px 4px; background-color: #F7F7F9; border: 1px solid #E1E1E8; color: #D14; }
+	
+      .vcuartslogo{
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 1000000;
+      }
+
+      audio{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000000;
+      }
+
+  </style>
+</head>
+<body>
+
+<div class="vcuartslogo">
+  <a href="../../index.html"><img src="../../assets/images/graphics/vcuarts-logo-small.png"/></a>
+</div>
+
+<audio src="../../assets/audio/small-jazz-ensemble.mp3" preload="auto" controls loop>
+  <p>Your browser does not support the audio element </p>
+</audio>
+
+
+
+	<script src="../libs/jquery/jquery.js"></script>
+    <script src="../src/jquery.backstretch.js"></script>
+	<script>
+
+  function shuffle(array) {
+  var currentIndex = array.length
+    , temporaryValue
+    , randomIndex
+    ;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+var arr = [
+  "../../assets/images/afo.jpg",
+  "../../assets/images/beestone.jpg",
+  "../../assets/images/glassworking_1.jpg",
+  "../../assets/images/money2.jpg",
+  "../../assets/images/npd.jpg",
+  "../../assets/images/pollak-roof.jpg",
+  "../../assets/images/qatar.jpg",
+  "../../assets/images/ryansmithdance.jpg",
+  "../../assets/images/searching.jpg",
+  "../../assets/images/ugrg.jpg",
+  "../../assets/images/vcuarts-sticker-rome.jpg",
+  "../../assets/images/misc/capsquilt.jpg",
+  "../../assets/images/misc/cowboys.jpg",
+  "../../assets/images/misc/dog.jpg",
+  "../../assets/images/misc/doha2.jpg",
+  "../../assets/images/misc/dragon.jpg",
+  "../../assets/images/misc/floralbunny.jpg",
+  "../../assets/images/misc/gradbanners.jpg",
+  "../../assets/images/misc/japan.jpg",
+  "../../assets/images/misc/latticechair.jpg",
+  "../../assets/images/misc/thumbs.jpg",
+  "../../assets/images/miscwork/keith.jpg",
+  "../../assets/images/miscwork/lites.jpg",
+  "../../assets/images/miscwork/murphy.jpg",
+  "../../assets/images/miscwork/murphy2.jpg",
+  "../../assets/images/miscwork/murphy3.jpg",
+  "../../assets/images/miscwork/oil.jpg",
+  "../../assets/images/miscwork/vincent.jpg",
+  "../../assets/images/miscwork/vortex.jpg",
+  "../../assets/images/afo/afo.jpg",
+  "../../assets/images/afo/craft-rings-fiber.jpg",
+  "../../assets/images/afo/drawing.jpg",
+  "../../assets/images/afo/happybirthday.jpg",
+  "../../assets/images/afo/horses-horses.jpg",
+  "../../assets/images/afo/init.jpg",
+  "../../assets/images/afo/skull.jpg",
+  "../../assets/images/afo/space.jpg",
+  "../../assets/images/afo/squirrell.jpg",
+  "../../assets/images/afo/surface.jpg",
+  "../../assets/images/afo/surface2.jpg",
+  "../../assets/images/afo/whatis.jpg",
+  "../../assets/images/afo/woods.jpg"];
+shuffle(arr);
+$.backstretch(arr, {
+    fade: 600,
+    duration: 4000
+});
+</script>
+</body>
+</html>
